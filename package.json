@@ -6,6 +6,9 @@
     "start": "node -r dotenv/config ./server/api.mjs",
     "dev": "nodemon -r dotenv/config ./server/api.mjs"
   },
+  "engines": {
+    "node": ">=18.0.0 <19.0.0"
+  },
   "keywords": [],
   "author": "Yariv Gilad <yariv.gilad@gmail.com>",
   "license": "ISC",
