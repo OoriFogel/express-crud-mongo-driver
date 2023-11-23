@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "node -r dotenv/config ./server/api.mjs",
+    "start": "node ./server/api.mjs",
     "dev": "nodemon -r dotenv/config ./server/api.mjs"
   },
   "engines": {
